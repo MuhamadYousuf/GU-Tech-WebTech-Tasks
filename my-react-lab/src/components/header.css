@@ -1,0 +1,30 @@
+.head{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0mm;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 3px;
+}
+.headdiv{
+    color: #FF00FF;
+    border-radius: 15px;
+    background-color:#87CEFA;
+    font-size: 35px;
+    border: 4px solid blue;
+    margin-top: 8px;
+    line-height: 10mm;
+    font-family: "Monaco", "Courier New", monospace;
+    box-sizing: border-box;
+    padding: 0;
+    display: inline-block;
+}
+
+.headh4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding: 0;
+    line-height: 1;
+}

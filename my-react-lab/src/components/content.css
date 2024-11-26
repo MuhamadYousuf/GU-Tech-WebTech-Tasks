@@ -1,0 +1,30 @@
+.cont{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0mm;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.contdiv{
+    color: #0000FF;
+    border-radius: 15px;
+    background-color: #F0E68C;
+    font-size:30px;
+    border: 4px solid #FFA500;
+    margin-top: 10px;
+    line-height: 10mm;
+    font-family:fantasy;
+    box-sizing: border-box;
+    padding: 0;
+    display: inline-block;
+}
+
+.contp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0;
+    line-height: 1;
+}
