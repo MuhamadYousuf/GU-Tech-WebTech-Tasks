@@ -1,22 +1,18 @@
 import React from 'react';
 import '../styles/LandingPage.css';
-import logo from '../assets/wikipedia logo.jpg'; // Import the logo
+import logo from '../assets/wikipedia logo.jpg';
 
 function LandingPage() {
   return (
     <div className="landing-container">
-      {/* Larger Logo Above the Title */}
       <div className="logo-container">
         <img src={logo} alt="Wikipedia Logo" className="landing-page-logo" />
       </div>
-
-      {/* Landing Page Content */}
       <h1 className="landing-title">Welcome to Wikipedia Clone</h1>
       <p className="landing-subtitle">
         Explore a world of knowledge, languages, and innovation. Your gateway to a wealth of information at your fingertips.
       </p>
 
-      {/* Language Section */}
       <div className="language-section">
         <h3 className="language-heading">Select Your Language</h3>
         <div className="language-links">
@@ -27,7 +23,6 @@ function LandingPage() {
         </div>
       </div>
 
-      {/* Form Section */}
       <div className="form-container">
         <h2>Get in Touch</h2>
         <p className="form-description">We'd love to hear from you! Fill out the form below, and our team will get back to you shortly.</p>

@@ -1,24 +1,24 @@
-/* General Landing Page Styles */
+
 .landing-container {
     text-align: center;
     padding: 20px;
     background-color: #ffffff;
   }
   
-  /* Logo Section */
+  
   .logo-container {
-    text-align: center; /* Center the logo */
-    margin-bottom: 20px; /* Space below the logo */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
   .landing-page-logo {
-    width: 150px; /* Make the logo larger */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for effect */
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
-  /* Title and Subtitle */
+  
   .landing-title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -33,7 +33,7 @@
     line-height: 1.6;
   }
   
-  /* Language Section */
+  
   .language-section {
     margin: 20px 0;
     text-align: center;
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     gap: 15px;
-    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+    flex-wrap: wrap; 
   }
   
   .language-link {
@@ -66,7 +66,7 @@
     background-color: #0056b3;
   }
   
-  /* Form Section */
+  
   .form-container {
     margin-top: 40px;
     padding: 20px;
@@ -81,7 +81,7 @@
     text-align: center;
   }
   
-  /* Form Description */
+  
   .form-description {
     font-size: 1rem;
     color: #555;
@@ -89,20 +89,20 @@
     line-height: 1.5;
   }
   
-  /* Form Heading */
+  
   .form-container h2 {
     margin-bottom: 10px;
     font-size: 1.8rem;
     color: #333;
   }
   
-  /* Form Group */
+ 
   .form-group {
     margin-bottom: 15px;
-    text-align: left; /* Align labels and inputs */
+    text-align: left; 
   }
   
-  /* Labels */
+ 
   .form-group label {
     display: block;
     font-size: 1rem;
@@ -110,7 +110,7 @@
     color: #333;
   }
   
-  /* Input Fields */
+ 
   .form-group input {
     width: 100%;
     padding: 10px;
@@ -126,7 +126,7 @@
     border-color: #007bff;
   }
   
-  /* Submit Button */
+  
   .submit-button {
     display: block;
     width: 100%;
