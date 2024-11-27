@@ -1,17 +1,15 @@
+import React from 'react';
 import './App.css';
-import Greeting from './components/greeting';
-import Content from './components/content';
-import Header from './components/header';
-import Footer from './components/footer';
-
+import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='App'>
-    <Greeting />
-    <Header />
-    <Content />
-    <Footer />
+    <div>
+      <Navbar />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
