@@ -12,10 +12,9 @@
   }
   
   .landing-page-logo {
-    width: 300px; 
+    width: auto; 
     height: auto; 
     border-radius: 10px; 
-    box-shadow: 0 ; 
   }
   
   
