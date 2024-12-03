@@ -1,28 +1,18 @@
 import React from 'react';
-import ProfileCard from './components/ProfileCard';
+import ProductCard from './components/ProductCard';
+import Oculuspro from './assets/oculusimg.jpg';
 
 function App() {
-  const user = {
-    name: 'Yousuf',
-    age: 19,
-    occupation: 'BSCS-Student',
-    location: '' // You can leave this empty or provide a default value if needed
-  };
-
-  return (
-    <div className="App">
-      <ProfileCard 
-        name={user.name} 
-        age={user.age} 
-        occupation={user.occupation} 
-        location={user.location}
-        ageLabel="Age"
-        occupationLabel="Occupation"
-        locationLabel={user.location ? "Location" : "Location (Not provided)"}
-      />
-    </div>
-  );
+    return (
+        <div className="App">
+            <ProductCard
+                title="Oculus Pro"
+                description="Virtual Animation"
+                price={1299}
+                imageUrl={Oculuspro}
+            />
+        </div>
+    );
 }
 
 export default App;
-
