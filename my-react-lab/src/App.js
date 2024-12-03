@@ -8,7 +8,7 @@ function App() {
             <ProductCard
                 title="Oculus Pro"
                 description="Virtual Animation"
-                price={1299}
+                price={999.99}
                 imageUrl={Oculuspro}
             />
         </div>

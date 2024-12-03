@@ -1,21 +1,20 @@
 .maindiv {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0; /* Ensure there's no external margin */
+    margin: 0;
 }
 
 .product-card {
+    margin-top: 5cm;
+    background-color: #e6e6fa;
     border: 1px solid #ccc;
     border-radius: 8px;
-    height: auto;
+    height: 520px;
     width: 400px;
-    padding: 16px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0px 0px 10px 0px grey;
     transition: transform 0.2s ease-in-out;
 }
@@ -35,39 +34,58 @@
 .product-card__content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
-    align-items: center;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
-    text-align: center; /* Center the text */
 }
 
 .product-card__title {
     font-size: 1.5cm;
     font-weight: bold;
-    margin: 8px 0; /* Add a little margin to the title */
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 .product-card__description {
-    font-size: 27px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     color: #555;
-    margin: 10;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .product-card__price {
     font-size: 25px;
     font-weight: bolder;
+    font-style: italic;
     color: #333;
-    margin-top: 8px;
+    margin-top: 0;
+    margin-bottom: 23px;
 }
 
 .buynow{
     background-color:  #24a0ed;
-    font-size: medium;
-    font-family: ;
-    font-weight: bold;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bolder;
     border-radius: 4px;
-    width: 85px;
-    height: 30px;
+    width: 95px;
+    height: 33px;
     border: 0px lightblue;
+    transition: transform 0.3s ease-in-out;
+}
+.buynow:hover{
+        transform: scale(1.08);
+}
+
+.buynowdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.hr{
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-bottom: 28px;
 }
