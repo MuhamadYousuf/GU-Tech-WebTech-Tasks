@@ -1,0 +1,113 @@
+.top{
+    margin-top: 20px;
+}
+
+.tocenter{
+    display: flex;
+    margin-left: 370px;
+}
+
+.tospace{
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.count{
+    color: lightgreen;
+    text-shadow: 0px 0px 10px lightgreen,
+    0px 0px 20px lightgreen,
+    0px 0px 40px lightgreen,
+    0px 0px 80px lightgreen;
+    font-weight: 900;
+    font-size: 50px;
+    margin-RIGHT: 10px;
+}
+
+.num{
+    color: lightgreen;
+    text-shadow: 0px 0px 10px lightgreen,
+    0px 0px 20px lightgreen,
+    0px 0px 40px lightgreen,
+    0px 0px 80px lightgreen;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    color: aqua;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 1px cyan,
+    0px 0px 2px cyan,
+    0px 0px 4px cyan,
+    0px 0px 8px cyan;
+    margin-right: 20px;
+    margin-top: 13PX;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.button1:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 4px cyan,
+    0px 0px 8px cyan,
+    0px 0px 12px cyan,
+    0px 0px 16px cyan;
+}
+
+.button2 {
+    color: aqua;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 1px cyan,
+    0px 0px 2px cyan,
+    0px 0px 4px cyan,
+    0px 0px 8px cyan;
+    margin-right: 20px;
+    margin-top: 13PX;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.button2:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 4px cyan,
+    0px 0px 8px cyan,
+    0px 0px 12px cyan,
+    0px 0px 16px cyan;
+}
+
+.button3 {
+    color: aqua;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 1px cyan,
+    0px 0px 2px cyan,
+    0px 0px 4px cyan,
+    0px 0px 8px cyan;
+    margin-right: 20px;
+    margin-top: 13PX;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.button3:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 4px cyan,
+    0px 0px 8px cyan,
+    0px 0px 12px cyan,
+    0px 0px 16px cyan;
+}
+
