@@ -1,18 +1,21 @@
 import React from 'react'
-import './App.css'
-import Counter from './components/counter'
-import Calculator from './components/calculator'
-import LoginForm from './components/loginform'
-import ShopingCart from './components/shopingcart'
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
+import Home from './components/home'
+import About from './components/about'
+import Contact from './components/contact'
+
 
 const App = () => {
   return (
-    <div>
-      <Counter/>
-      <Calculator/>
-      <LoginForm/>
-      <ShopingCart/>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 
