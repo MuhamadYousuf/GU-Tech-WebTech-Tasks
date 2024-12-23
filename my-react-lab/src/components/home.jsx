@@ -1,7 +1,7 @@
 import React from 'react'
 
 function home(){
-    return <h1>Welcome to home page</h1>
+    return <h1 className='contact'>Welcome to home page</h1>
 }
 
 export default home
