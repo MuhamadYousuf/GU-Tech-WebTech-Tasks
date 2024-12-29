@@ -1,0 +1,24 @@
+.cart {
+    text-align: center;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .cart button {
+    margin-top: 10px;
+  }
+  

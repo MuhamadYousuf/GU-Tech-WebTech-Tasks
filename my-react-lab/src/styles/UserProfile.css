@@ -1,0 +1,11 @@
+.user-profile {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #444;
+  }
+  
+  .user-profile h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  

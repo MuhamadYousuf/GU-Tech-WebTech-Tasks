@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import '../styles/About.css';
 
-const about = () => {
+function About() {
   return (
-    <div><h1 className='about'>About us</h1></div>
-  )
+    <div className="about">
+      <h1>About ShoeStore</h1>
+      <p>ShoeStore is your one-stop shop for the latest and greatest in footwear fashion. We offer top-quality shoes at unbeatable prices. Our mission is to provide comfort and style for every step you take.</p>
+    </div>
+  );
 }
 
-export default about
+export default About;

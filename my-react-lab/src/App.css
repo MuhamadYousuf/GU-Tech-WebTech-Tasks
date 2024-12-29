@@ -1,31 +1,21 @@
-.line{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 35px;
-  width: 1200px;
-  height: 5px;
-  background-color: white;
-  border-radius: 100px;
+.container {
+  padding: 2em;
+  font-family: Arial, sans-serif;
 }
 
-.about{
-  color: blue;
-  text-shadow: 0px 0px 10px cyan,
-  0px 0px 20px cyan,
-  0px 0px 40px cyan,
-  0px 0px 80px cyan;
+h1 {
+  color: #333;
 }
-.home{
-  color: blue;
-  text-shadow: 0px 0px 10px cyan,
-  0px 0px 20px cyan,
-  0px 0px 40px cyan,
-  0px 0px 80px cyan;
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.contact{
-  color: blue;
-  text-shadow: 0px 0px 10px cyan,
-  0px 0px 20px cyan,
-  0px 0px 40px cyan,
-  0px 0px 80px cyan;
+
+button:hover {
+  background-color: #0056b3;
 }
