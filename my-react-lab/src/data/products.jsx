@@ -1,21 +1,39 @@
 const products = [
     {
       id: 1,
-      name: 'Running Shoes',
-      price: 43500,
-      image: '/images/running.jpeg',
+      name: 'Minimal Desk Lamp',
+      price: 89.99,
+      image: '/images/mindesk.jpg',
     },
     {
       id: 2,
-      name: 'Basketball Sneakers',
-      price: 32999,
-      image: '/images/bb.jpeg',
+      name: 'Ceramic Coffee Mug',
+      price: 24.99,
+      image: '/images/coffmug.jpg',
     },
     {
       id: 3,
-      name: 'Casual Loafers',
-      price: 23500,
-      image: '/images/loafers.jpeg',
+      name: 'Leather Book',
+      price: 34.99,
+      image: '/images/notebook.jpg',
+    },
+    {
+      id: 4,
+      name: 'Bamboo Plant Stand',
+      price: 49.99,
+      image: '/images/plantsand.jpg',
+    },
+    {
+      id: 5,
+      name: 'Abstract Wall Art',
+      price: 129.99,
+      image: '/images/wallart.jpg',
+    },
+    {
+      id: 6,
+      name: 'Geomatric Bookends',
+      price: 39.99,
+      image: '/images/bookends.jpg',
     },
   ];
   

@@ -1,6 +1,5 @@
 .navbar {
-    background: #333;
-    color: white;
+    color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -10,6 +9,7 @@
   .nav-links {
     list-style: none;
     display: flex;
+    margin-right: 3cm;
   }
   
   .nav-links li {
@@ -17,7 +17,12 @@
   }
   
   .nav-links a {
-    color: white;
+    color: BLACK;
     text-decoration: none;
   }
   
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3cm;
+  }

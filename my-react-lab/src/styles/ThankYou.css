@@ -1,0 +1,29 @@
+.thank-you {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .thank-you h2 {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .thank-you p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-btn:hover {
+    background-color: rgb(65, 60, 60);
+  }
+  

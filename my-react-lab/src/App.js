@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import ProductDetail from './components/ProductDetail';
-import UserProfile from './components/UserProfile';
+import Home from './components/home';
 import Cart from './components/Cart';
-import About from './components/About';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
+import ThankYou from './components/ThankYou'; // ✅ Import ThankYou page
 import './App.css';
 
 function App() {
   const [cart, setCart] = useState([]);
 
   const addToCart = (product) => {
-    setCart([...cart, product]);
+    setCart((prevCart) => [...prevCart, product]);
   };
 
-  const removeFromCart = (index) => {
-    setCart(cart.filter((_, i) => i !== index));
+  const removeFromCart = (productId) => {
+    setCart((prevCart) => prevCart.filter((item) => item.id !== productId));
+  };
+
+  const clearCart = () => {
+    setCart([]);
   };
 
   return (
@@ -25,10 +27,8 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />
-          <Route path="/product/:id" element={<ProductDetail addToCart={addToCart} />} />
-          <Route path="/user/MuhammadYousuf" element={<UserProfile username="Muhammad Yousuf" />} />
-          <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart} />} />
+          <Route path="/thank-you" element={<ThankYou />} /> {/* ✅ New Route for Thank You Page */}
         </Routes>
       </div>
     </Router>
