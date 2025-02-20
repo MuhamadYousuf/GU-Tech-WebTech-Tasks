@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/ThankYou.css'; // Add some styling
+import '../styles/ThankYou.css'; 
 
 function ThankYou() {
   return (

@@ -1,16 +1,15 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // ✅ Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import '../styles/Cart.css';
 
 function Cart({ cart, removeFromCart, clearCart }) {
-  const navigate = useNavigate(); // ✅ Get navigation function
+  const navigate = useNavigate(); 
 
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
-  // ✅ Checkout function: Navigate & Clear Cart
   const handleCheckout = () => {
-    clearCart(); // Clears the cart
-    navigate('/thank-you'); // Redirects to Thank You page
+    clearCart(); 
+    navigate('/thank-you'); 
   };
 
   return (
@@ -19,7 +18,7 @@ function Cart({ cart, removeFromCart, clearCart }) {
       {cart.length === 0 ? (
         <div className="empty-cart-container">
           <img src="/images/Emcartpic.png" alt="Empty Cart" className="empty-cart-image" />
-          <p className="empty-cart-text">Your cart is empty</p> {/* ✅ Added empty cart text */}
+          <p className="empty-cart-text">Your cart is empty</p> 
         </div>
       ) : (
         <>

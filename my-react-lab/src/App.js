@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 import Cart from './components/Cart';
 import Navbar from './components/navbar';
-import ThankYou from './components/ThankYou'; // ✅ Import ThankYou page
+import ThankYou from './components/ThankYou';
 import './App.css';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />
           <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} clearCart={clearCart} />} />
-          <Route path="/thank-you" element={<ThankYou />} /> {/* ✅ New Route for Thank You Page */}
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </div>
     </Router>
